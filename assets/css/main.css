@@ -8183,15 +8183,15 @@ input, select, textarea {
 	display: flex;
 	background-color: #000000;
 	cursor: default;
-	padding: .5em 2em;
+	padding: 1em 1em;
 }
-
+s
 	#header > .title {
 		border: 0;
 		color: #ffffff;
 		display: block;
-		font-size: 1.25em;
-		font-weight: 400;
+		font-size: 1rem;
+		font-weight: 300;
 	}
 
 	#header > nav {
@@ -8222,9 +8222,9 @@ input, select, textarea {
 					border: 0;
 					color: rgba(255, 255, 255, 0.35);
 					display: inline-block;
-					font-size: 0.6em;
-					font-weight: bold;
-					letter-spacing: 0.25em;
+					font-size: 1rem;
+					font-weight: 300;
+					letter-spacing: 0.2em;
 					text-transform: none;
 				}
 
