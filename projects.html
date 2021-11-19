@@ -37,8 +37,25 @@
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
-				<!-- 6.111 -->
+				<!-- 6.330 -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<header>
+								<h2>Closed-Loop Linear Motor Driver for Ultrasound Probe Stabilization</h2>
+								<p>Power Electronics Laboratory, Spring 2021</p>
+							</header>
+							<p>This project developed a motor driver and controller capable of position control for a linear motor. PWM modulation creates sinusoidal phase voltages for the motor instead of square waves, which allows for much smoother movement and control. In future work, this could be used to provide constant, user-determined force on a surface regardless of hand position for ultrasound probe stabilization.</p>
+							<ul class="actions fit">
+								<li><a href="6_330_Final_Report.pdf" class="button primary fit">Final Report</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/330.gif" alt=""  width="250" />
+						</div>
+					</section>
+				
+				<!-- 6.111 -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<header>
 								<h2>Overcooked: Food-programmable Gate Array</h2>
@@ -57,23 +74,6 @@
 						</div>
 						<div class="image">
 							<img src="images/overcooked-setup.jpg" alt="" />
-						</div>
-					</section>
-
-				<!-- 6.330 -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<header>
-								<h2>Closed-Loop Linear Motor Driver for Ultrasound Probe Stabilization</h2>
-								<p>Power Electronics Laboratory, Spring 2021</p>
-							</header>
-							<p>This project developed a motor driver and controller capable of position control for a linear motor. PWM modulation creates sinusoidal phase voltages for the motor instead of square waves, which allows for much smoother movement and control. In future work, this could be used to provide constant, user-determined force on a surface regardless of hand position for ultrasound probe stabilization.</p>
-							<ul class="actions fit">
-								<li><a href="6_330_Final_Report.pdf" class="button primary fit">Final Report</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/330.gif" alt=""  width="250" />
 						</div>
 					</section>
 				
@@ -106,28 +106,31 @@
 							</header>
 							
 							<p>Passive houses primarily rely on their architecture and the environment to maintain a comfortable 
-								temperature for their residents. Specifically, they have large windows on the south-side with large 
+								temperature for their inhabitants. Specifically, they have large windows on the south-side with large 
 								eaves that block the high sun in the summer and allow for more sunlight in the winter when the sun 
-								is low. This energy harvesting can be facilitated with exterior blinds on the south side with a 
-								sensor-controlled system, PHEBCS. PHEBCS uses readings from commercial temperature and wind speed 
-								sensors to determine when to raise and lower the blinds to keep the temperature inside the house 
-								within the desired range. These sensors will use an RF communication scheme to send information 
-								to an Raspberry Pi inside the house that will then communicate with the blinds to raise and lower 
-								them.</p>
+								is low. This energy harvesting can be amplified by exterior blinds on the south side with our 
+								sensor-controlled system, PHEBCS. PHEBCS uses temperature and wind speed readings to determine 
+								when to raise and lower the blinds to keep the temperature inside the house 
+								within the desired range. To implement this, I reverse-engineered the RF signal of the blinds' remote, 
+								and programmed a Raspberry Pi to automatically raise and lower the blinds based on wind speed and local temperature.
+								</p>
 							
 							<ul class="actions fit">
-								<li><a href="6_111_Final_Report.pdf" class="button primary fit">Final Report</a></li>
+								<li><a href="6_101_Final_Report.pdf" class="button primary fit">Final Report</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/pic01.jpg" alt="" />
+							<img src="images/output.png" alt="" />
 						</div>
 					</section>
 
-				<!-- 6.301 -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+				<!-- 6.301 
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>PHEBS</h2>
+							<header>
+								<h2>P</h2>
+								<p>Solid-State Circuits, Fall 2019</p>
+							</header>
 							
 							<p>For my Digital Systems class, I teamed up with classmates to program an FPGA version of Overcooked, the video game. I was responsible for implementing the game logic, while my teammates implemented the graphics and network communications.</p>
 							
@@ -138,28 +141,34 @@
 						<div class="image">
 							<img src="images/pic01.jpg" alt="" />
 						</div>
-					</section>
+					</section> -->
 
 				<!-- 6.775 -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>PHEBS</h2>
+							<header>
+								<h2>Switched Capacitor A/D Converter Input Buffer</h2>
+								<p>CMOS Analog and Mixed-Signal Circuit Design, Spring 2021</p>
+							</header>
 							
-							<p>For my Digital Systems class, I teamed up with classmates to program an FPGA version of Overcooked, the video game. I was responsible for implementing the game logic, while my teammates implemented the graphics and network communications.</p>
-							
+							<p>The objective of this project was to design and simulate an input buffer suitable to drive a 
+								switched-capacitor A/D converter in Cadence.</p>
 							<ul class="actions fit">
-								<li><a href="6_111_Final_Report.pdf" class="button primary fit">Final Report</a></li>
+								<li><a href="6_775_Final_Report.pdf" class="button primary fit">Final Report</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/pic01.jpg" alt="" />
+							<img src="images/775.png" alt="" />
 						</div>
 					</section>
 				
-				<!-- 6.776 -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+				<!-- 6.776 
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>PHEBS</h2>
+							<header>
+								<h2>P</h2>
+								<p>High Speed Communication Circuits, Fall 2020</p>
+							</header>
 							
 							<p>For my Digital Systems class, I teamed up with classmates to program an FPGA version of Overcooked, the video game. I was responsible for implementing the game logic, while my teammates implemented the graphics and network communications.</p>
 							
@@ -170,12 +179,15 @@
 						<div class="image">
 							<img src="images/pic01.jpg" alt="" />
 						</div>
-					</section>
+					</section> -->
 
-				<!-- 6.08 -->
+				<!-- 6.08 
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>PHEBS</h2>
+							<header>
+								<h2>P</h2>
+								<p>Embedded Systems, Spring 2019</p>
+							</header>
 							
 							<p>For my Digital Systems class, I teamed up with classmates to program an FPGA version of Overcooked, the video game. I was responsible for implementing the game logic, while my teammates implemented the graphics and network communications.</p>
 							
@@ -186,23 +198,26 @@
 						<div class="image">
 							<img src="images/pic01.jpg" alt="" />
 						</div>
-					</section>
+					</section> -->
 
-				<!-- 6.012 -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+				<!-- 6.012 
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
-							<h2>PHEBS</h2>
+							<header>
+								<h2>Optimal Transistor Design</h2>
+								<p>Nanoelectronics & Computing Systems, Spring 2019</p>
+							</header>
 							
 							<p>For my Digital Systems class, I teamed up with classmates to program an FPGA version of Overcooked, the video game. I was responsible for implementing the game logic, while my teammates implemented the graphics and network communications.</p>
 							
 							<ul class="actions fit">
-								<li><a href="6_111_Final_Report.pdf" class="button primary fit">Final Report</a></li>
+								<li><a href="6_012_Final_Report.pdf" class="button primary fit">Final Report</a></li>
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/pic01.jpg" alt="" />
+							<img src="images/transistor.png" alt="" width="400" />
 						</div>
-					</section>
+					</section> -->
 					
 
 				<!-- Footer -->
