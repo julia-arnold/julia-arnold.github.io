@@ -1,87 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://julia-arnold.github.io/</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/index.html</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/projects.html</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/fun.html</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/ArnoldJ_Resume.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/6_111_Final_Report.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/6_330_Final_Report.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/Transport_DATAS_Memo.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/Transport_DATAS_Slides.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/6_101_Final_Report.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/6_775_Final_Report.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/brownies.html</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/cookies.html</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/lasagna.html</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://julia-arnold.github.io/SnekHistory.pdf</loc>
-  <lastmod>2021-11-21T21:12:52+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://julia-arnold.github.io/</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://julia-arnold.github.io/fun.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://julia-arnold.github.io/lasagna.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://julia-arnold.github.io/index.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://julia-arnold.github.io/cookies.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://julia-arnold.github.io/projects.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://julia-arnold.github.io/brownies.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>
